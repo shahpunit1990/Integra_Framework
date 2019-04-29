@@ -1,0 +1,54 @@
+package com.integra.pages;
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+
+import com.integra.base.TestBase;
+
+public class ProgramAndRole extends TestBase
+{
+
+	//page factory---OR
+	@FindBy(xpath="//select[@id=\"ctl00_MainBody_ddUserPrograms\"]")
+	WebElement select_program;
+	
+//	@FindBy(name="ctl00$MainBody$ddUserProgramRoles")
+//	WebElement select_role;
+//	
+//	
+//	@FindBy(xpath="*ctl00_MainBody_Button1")
+//	WebElement go_btn;
+	
+	
+	public ProgramAndRole()
+	{
+		
+		PageFactory.initElements(driver, this);
+	}
+	
+	
+	public String validateProgram_And_Role_title()
+	{
+		return driver.getTitle();
+	}
+	
+	public HomePage Program_And_Role() 
+	{
+		
+	     Select select_program = new Select(driver.findElement(By.xpath("select_program")));
+	     select_program.selectByVisibleText("ProgramAdmin");
+
+//	     Select select_role = new Select(driver.findElement(By.name("select_role")));
+//	     select_role.selectByVisibleText("Provider");
+////		select_program.sendKeys(PR);
+////		select_role.sendKeys(Rol);
+//	     go_btn.click();
+	     return new HomePage();
+		
+	}
+	
+}
