@@ -47,7 +47,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Apr 29, 2019 12:03:41 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Apr 29, 2019 12:17:50 PM</span>
 				</a>
 			</li>
 			<li>
@@ -124,15 +124,15 @@
 				
 				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>LoginTest</span>
-						<span class='test-time'>Apr 29, 2019 12:04:00 AM</span>
+						<span class='test-name'>Click_On_Support_Coordinator</span>
+						<span class='test-time'>Apr 29, 2019 12:18:19 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Apr 29, 2019 12:04:00 AM</span>
-	<span class='label end-time'>Apr 29, 2019 12:04:21 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 21s+64ms</span>
+	<span class='label start-time'>Apr 29, 2019 12:18:19 PM</span>
+	<span class='label end-time'>Apr 29, 2019 12:18:39 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 20s+607ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -146,16 +146,16 @@
 			<tbody>
 				<tr class='log' status='fail'>
 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>12:04:23 AM</td>
-					<td class='step-details'><textarea>org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"ctl00$MainBody$btnLogin11"}
-Command duration or timeout: 20.06 seconds
+					<td class='timestamp'>12:18:41 PM</td>
+					<td class='step-details'><textarea>org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@title=\"Support Coordinator Searc\"]"}
+Command duration or timeout: 20.12 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'PG168', ip: '172.30.138.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 836f306d-03cb-4378-a011-f01242c0f15e
-*** Element info: {Using=name, value=ctl00$MainBody$btnLogin11}
+Session ID: 629e611b-259e-45e9-860a-383a8bc39024
+*** Element info: {Using=xpath, value=//a[@title="Support Coordinator Searc"]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -164,8 +164,8 @@ Session ID: 836f306d-03cb-4378-a011-f01242c0f15e
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -177,8 +177,8 @@ Session ID: 836f306d-03cb-4378-a011-f01242c0f15e
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy9.click(Unknown Source)
-	at com.integra.pages.Login_Page.Login_to_Portal(Login_Page.java:40)
-	at com.integra.testscript.LoginPageTestCase.LoginTest(LoginPageTestCase.java:41)
+	at com.integra.pages.HomePage.SC_search_tab(HomePage.java:29)
+	at com.integra.testscript.HomePageTestScript.Click_On_Support_Coordinator(HomePageTestScript.java:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -204,13 +204,13 @@ Session ID: 836f306d-03cb-4378-a011-f01242c0f15e
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"ctl00$MainBody$btnLogin11"}
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@title=\"Support Coordinator Searc\"]"}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'PG168', ip: '172.30.138.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/pshah/AppData/Local/Temp/anonymous7948299211433634303webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/pshah/AppData/Local/Temp/anonymous7948299211433634303webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/pshah/AppData/Local/Temp/anonymous7153653094745238435webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/pshah/AppData/Local/Temp/anonymous7153653094745238435webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
 </textarea></td>
 				</tr>
 			</tbody>
@@ -222,15 +222,15 @@ Driver info: driver.version: unknown
 				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
 					<div class='test-heading'>
-						<span class='test-name'>LoginPageTitleTest</span>
-						<span class='test-time'>Apr 29, 2019 12:03:41 AM</span>
+						<span class='test-name'>validate_SC_Search_title</span>
+						<span class='test-time'>Apr 29, 2019 12:17:50 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Apr 29, 2019 12:03:41 AM</span>
-	<span class='label end-time'>Apr 29, 2019 12:03:41 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+54ms</span>
+	<span class='label start-time'>Apr 29, 2019 12:17:50 PM</span>
+	<span class='label end-time'>Apr 29, 2019 12:17:50 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+45ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -244,7 +244,7 @@ Driver info: driver.version: unknown
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>12:04:23 AM</td>
+					<td class='timestamp'>12:18:41 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -355,17 +355,17 @@ Driver info: driver.version: unknown
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Apr 29, 2019 12:04:00 AM</td>
-                                                        <td class='linked' test-id='1'>LoginTest</td>
-                                                        <td><pre><textarea>org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"ctl00$MainBody$btnLogin11"}
-Command duration or timeout: 20.06 seconds
+                                                        <td>Apr 29, 2019 12:18:19 PM</td>
+                                                        <td class='linked' test-id='1'>Click_On_Support_Coordinator</td>
+                                                        <td><pre><textarea>org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@title=\"Support Coordinator Searc\"]"}
+Command duration or timeout: 20.12 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'PG168', ip: '172.30.138.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 836f306d-03cb-4378-a011-f01242c0f15e
-*** Element info: {Using=name, value=ctl00$MainBody$btnLogin11}
+Session ID: 629e611b-259e-45e9-860a-383a8bc39024
+*** Element info: {Using=xpath, value=//a[@title="Support Coordinator Searc"]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -374,8 +374,8 @@ Session ID: 836f306d-03cb-4378-a011-f01242c0f15e
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -387,8 +387,8 @@ Session ID: 836f306d-03cb-4378-a011-f01242c0f15e
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy9.click(Unknown Source)
-	at com.integra.pages.Login_Page.Login_to_Portal(Login_Page.java:40)
-	at com.integra.testscript.LoginPageTestCase.LoginTest(LoginPageTestCase.java:41)
+	at com.integra.pages.HomePage.SC_search_tab(HomePage.java:29)
+	at com.integra.testscript.HomePageTestScript.Click_On_Support_Coordinator(HomePageTestScript.java:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -414,13 +414,13 @@ Session ID: 836f306d-03cb-4378-a011-f01242c0f15e
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"ctl00$MainBody$btnLogin11"}
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@title=\"Support Coordinator Searc\"]"}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'PG168', ip: '172.30.138.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/pshah/AppData/Local/Temp/anonymous7948299211433634303webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/pshah/AppData/Local/Temp/anonymous7948299211433634303webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/pshah/AppData/Local/Temp/anonymous7153653094745238435webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/pshah/AppData/Local/Temp/anonymous7153653094745238435webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
 </textarea></pre></td>
                                                     </tr>
                                         </tbody>
@@ -459,19 +459,19 @@ Driver info: driver.version: unknown
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Apr 29, 2019 12:03:41 AM</div>
+					<div class='panel-lead'>Apr 29, 2019 12:17:50 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Apr 29, 2019 12:04:23 AM</div>
+			 		<div class='panel-lead'>Apr 29, 2019 12:18:41 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 41s+679ms</div>
+					<div class='panel-lead'>0h 0m 51s+511ms</div>
 				</div>
 			</div>
 		</div>

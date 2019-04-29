@@ -2,6 +2,8 @@ package com.integra.util;
 
 import java.io.IOException;
 
+import javax.naming.spi.DirStateFactory.Result;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;

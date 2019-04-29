@@ -6,13 +6,13 @@
   </listeners>
   <test name="Integra Test(failed)">
     <classes>
-      <class name="com.integra.testscript.LoginPageTestCase">
+      <class name="com.integra.testscript.HomePageTestScript">
         <methods>
-          <include name="TearDown"/>
-          <include name="LoginTest"/>
+          <include name="Click_On_Support_Coordinator"/>
           <include name="setup"/>
+          <include name="TearDown"/>
         </methods>
-      </class> <!-- com.integra.testscript.LoginPageTestCase -->
+      </class> <!-- com.integra.testscript.HomePageTestScript -->
     </classes>
   </test> <!-- Integra Test(failed) -->
 </suite> <!-- Failed suite [Integra Regression Suite] -->

@@ -8,7 +8,7 @@ import com.integra.base.TestBase;
 
 public class HomePage extends TestBase{
 	
-	@FindBy(xpath="//a[@title=\"Support Coordinator Search\"]")
+	@FindBy(xpath="//a[@title=\"Support Coordinator Searc\"]")
 	WebElement SC_Search;
 	
 	

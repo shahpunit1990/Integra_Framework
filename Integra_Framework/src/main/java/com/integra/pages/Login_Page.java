@@ -17,7 +17,7 @@ public class Login_Page extends TestBase
 	@FindBy(id="ctl00_MainBody_txtPassword1")
 	WebElement password;
 	
-	@FindBy(name="ctl00$MainBody$btnLogin11")
+	@FindBy(name="ctl00$MainBody$btnLogin1")
 	WebElement login_button;
 	
 	// creating Login_page constructor to initilize the PageFactory

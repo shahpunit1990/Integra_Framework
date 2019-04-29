@@ -10,7 +10,7 @@
   <test  name="Integra Test">
     <classes>
         
-      <class name="com.integra.testscript.LoginPageTestCase"/>
+      <class name="com.integra.testscript.HomePageTestScript"/>
       
     
      
