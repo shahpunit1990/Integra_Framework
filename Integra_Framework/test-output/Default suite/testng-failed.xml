@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.integra.testscript.HomePageTestScript">
+      <class name="com.integra.testscript.CreateNewParticipant_TestScript">
         <methods>
-          <include name="Click_On_Support_Coordinator"/>
-          <include name="setup"/>
+          <include name="validate_ParticipantPage_Title"/>
           <include name="TearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.integra.testscript.HomePageTestScript -->
+      </class> <!-- com.integra.testscript.CreateNewParticipant_TestScript -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

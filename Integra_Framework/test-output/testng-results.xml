@@ -1,74 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Integra Regression Suite" duration-ms="81817" started-at="2019-04-29T06:47:18Z" finished-at="2019-04-29T06:48:40Z">
+  <suite name="Default suite" duration-ms="25955" started-at="2019-05-03T13:27:23Z" finished-at="2019-05-03T13:27:49Z">
     <groups>
     </groups>
-    <test name="Integra Test" duration-ms="81817" started-at="2019-04-29T06:47:18Z" finished-at="2019-04-29T06:48:40Z">
-      <class name="com.integra.testscript.HomePageTestScript">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.integra.testscript.HomePageTestScript@146ba0ac]" name="setup" is-config="true" duration-ms="31386" started-at="2019-04-29T12:17:18Z" finished-at="2019-04-29T12:17:50Z">
+    <test name="Default test" duration-ms="25955" started-at="2019-05-03T13:27:23Z" finished-at="2019-05-03T13:27:49Z">
+      <class name="com.integra.testscript.CreateNewParticipant_TestScript">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.integra.testscript.CreateNewParticipant_TestScript@754ba872]" name="setup" is-config="true" duration-ms="24278" started-at="2019-05-03T18:57:23Z" finished-at="2019-05-03T18:57:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validate_SC_Search_title()[pri:1, instance:com.integra.testscript.HomePageTestScript@146ba0ac]" name="validate_SC_Search_title" duration-ms="45" started-at="2019-04-29T12:17:50Z" finished-at="2019-04-29T12:17:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_SC_Search_title -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.integra.testscript.HomePageTestScript@146ba0ac]" name="TearDown" is-config="true" duration-ms="1211" started-at="2019-04-29T12:17:50Z" finished-at="2019-04-29T12:17:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.integra.testscript.HomePageTestScript@146ba0ac]" name="setup" is-config="true" duration-ms="27521" started-at="2019-04-29T12:17:51Z" finished-at="2019-04-29T12:18:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Click_On_Support_Coordinator()[pri:2, instance:com.integra.testscript.HomePageTestScript@146ba0ac]" name="Click_On_Support_Coordinator" duration-ms="20607" started-at="2019-04-29T12:18:19Z" finished-at="2019-04-29T12:18:39Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//a[@title=\"Support Coordinator Searc\"]"}
-Command duration or timeout: 20.12 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'PG168', ip: '172.30.138.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 629e611b-259e-45e9-860a-383a8bc39024
-*** Element info: {Using=xpath, value=//a[@title="Support Coordinator Searc"]}]]>
-            </message>
+        <test-method status="FAIL" signature="validate_ParticipantPage_Title()[pri:0, instance:com.integra.testscript.CreateNewParticipant_TestScript@754ba872]" name="validate_ParticipantPage_Title" duration-ms="15" started-at="2019-05-03T18:57:47Z" finished-at="2019-05-03T18:57:47Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@title=\"Support Coordinator Searc\"]"}
-Command duration or timeout: 20.12 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'PG168', ip: '172.30.138.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 629e611b-259e-45e9-860a-383a8bc39024
-*** Element info: {Using=xpath, value=//a[@title="Support Coordinator Searc"]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.click(Unknown Source)
-	at com.integra.pages.HomePage.SC_search_tab(HomePage.java:29)
-	at com.integra.testscript.HomePageTestScript.Click_On_Support_Coordinator(HomePageTestScript.java:42)
+              <![CDATA[java.lang.NullPointerException
+	at com.integra.testscript.CreateNewParticipant_TestScript.validate_ParticipantPage_Title(CreateNewParticipant_TestScript.java:41)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -94,24 +41,17 @@ Session ID: 629e611b-259e-45e9-860a-383a8bc39024
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@title=\"Support Coordinator Searc\"]"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'PG168', ip: '172.30.138.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/pshah/AppData/Local/Temp/anonymous7153653094745238435webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/pshah/AppData/Local/Temp/anonymous7153653094745238435webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Click_On_Support_Coordinator -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.integra.testscript.HomePageTestScript@146ba0ac]" name="TearDown" is-config="true" duration-ms="979" started-at="2019-04-29T12:18:39Z" finished-at="2019-04-29T12:18:40Z">
+        </test-method> <!-- validate_ParticipantPage_Title -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.integra.testscript.CreateNewParticipant_TestScript@754ba872]" name="TearDown" is-config="true" duration-ms="1607" started-at="2019-05-03T18:57:47Z" finished-at="2019-05-03T18:57:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- com.integra.testscript.HomePageTestScript -->
-    </test> <!-- Integra Test -->
-  </suite> <!-- Integra Regression Suite -->
+      </class> <!-- com.integra.testscript.CreateNewParticipant_TestScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

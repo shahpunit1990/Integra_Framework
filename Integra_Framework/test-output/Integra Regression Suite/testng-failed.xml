@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Integra Regression Suite]">
-  <listeners>
-    <listener class-name="com.integra.ExtentReportListener.ExtentTestNGIReporterListener"/>
-  </listeners>
   <test name="Integra Test(failed)">
     <classes>
-      <class name="com.integra.testscript.HomePageTestScript">
+      <class name="com.integra.testscript.Program_Role_testscript">
         <methods>
-          <include name="Click_On_Support_Coordinator"/>
-          <include name="setup"/>
+          <include name="Program_RoleTest"/>
           <include name="TearDown"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.integra.testscript.HomePageTestScript -->
+      </class> <!-- com.integra.testscript.Program_Role_testscript -->
     </classes>
   </test> <!-- Integra Test(failed) -->
 </suite> <!-- Failed suite [Integra Regression Suite] -->

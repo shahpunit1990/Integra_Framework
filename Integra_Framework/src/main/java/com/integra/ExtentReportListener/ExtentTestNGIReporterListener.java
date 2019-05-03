@@ -20,11 +20,12 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+import com.integra.base.TestBase;
 
-public class ExtentTestNGIReporterListener implements IReporter{
+public class ExtentTestNGIReporterListener extends TestBase implements IReporter{
 
 	 private static final String OUTPUT_FOLDER = "test-output/";
-	    private static final String FILE_NAME = "Extent.html";
+	    private static final String FILE_NAME = "Extent_report1.html";
 	    
 	    private ExtentReports extent;
 	
@@ -60,7 +61,7 @@ public class ExtentTestNGIReporterListener implements IReporter{
 	        htmlReporter.config().setReportName("ExtentReports - Created by TestNG Listener");
 	        htmlReporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);
 	        htmlReporter.config().setTheme(Theme.STANDARD);
-	        
+	   
 	        extent = new ExtentReports();
 	        extent.attachReporter(htmlReporter);
 	        extent.setReportUsesManualConfiguration(true);
@@ -95,3 +96,7 @@ public class ExtentTestNGIReporterListener implements IReporter{
 	        return calendar.getTime();      
 	    }
 	}
+
+
+
+
