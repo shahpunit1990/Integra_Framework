@@ -11,6 +11,9 @@ public class HomePage extends TestBase{
 	@FindBy(xpath="//a[@title=\"Support Coordinator Search\"]")
 	WebElement SC_Search;
 	
+	@FindBy(xpath="//a[contains(@title,'Add New')]")
+	WebElement ClickOn_AddParticipant;
+	
 	
 	
 	public HomePage()
@@ -29,5 +32,10 @@ public class HomePage extends TestBase{
 		SC_Search.click();
 		return new SupportCoordinatorSearchPage();
 		
+	}
+	public CreateNewParticipantPage Create_new_participant() 
+	{
+		ClickOn_AddParticipant.click();
+		return new CreateNewParticipantPage();
 	}
 }

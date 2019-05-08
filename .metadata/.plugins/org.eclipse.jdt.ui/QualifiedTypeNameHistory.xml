@@ -31,4 +31,5 @@
 <fullyQualifiedTypeName name="com.integra.pages.CreateNewParticipantPage"/>
 <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 <fullyQualifiedTypeName name="org.testng.Assert"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
 </qualifiedTypeNameHistroy>

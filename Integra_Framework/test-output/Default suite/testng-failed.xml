@@ -5,9 +5,9 @@
     <classes>
       <class name="com.integra.testscript.CreateNewParticipant_TestScript">
         <methods>
-          <include name="validate_ParticipantPage_Title"/>
           <include name="TearDown"/>
           <include name="setup"/>
+          <include name="Create_Participant_Profile"/>
         </methods>
       </class> <!-- com.integra.testscript.CreateNewParticipant_TestScript -->
     </classes>

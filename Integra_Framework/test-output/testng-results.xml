@@ -1,29 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25955" started-at="2019-05-03T13:27:23Z" finished-at="2019-05-03T13:27:49Z">
+  <suite name="Default suite" duration-ms="93129" started-at="2019-05-08T11:57:51Z" finished-at="2019-05-08T11:59:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25955" started-at="2019-05-03T13:27:23Z" finished-at="2019-05-03T13:27:49Z">
+    <test name="Default test" duration-ms="93129" started-at="2019-05-08T11:57:51Z" finished-at="2019-05-08T11:59:25Z">
       <class name="com.integra.testscript.CreateNewParticipant_TestScript">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.integra.testscript.CreateNewParticipant_TestScript@754ba872]" name="setup" is-config="true" duration-ms="24278" started-at="2019-05-03T18:57:23Z" finished-at="2019-05-03T18:57:47Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.integra.testscript.CreateNewParticipant_TestScript@4dfa3a9d]" name="setup" is-config="true" duration-ms="24393" started-at="2019-05-08T17:27:52Z" finished-at="2019-05-08T17:28:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="validate_ParticipantPage_Title()[pri:0, instance:com.integra.testscript.CreateNewParticipant_TestScript@754ba872]" name="validate_ParticipantPage_Title" duration-ms="15" started-at="2019-05-03T18:57:47Z" finished-at="2019-05-03T18:57:47Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="PASS" signature="validate_ParticipantPage_Title()[pri:1, instance:com.integra.testscript.CreateNewParticipant_TestScript@4dfa3a9d]" name="validate_ParticipantPage_Title" duration-ms="2946" started-at="2019-05-08T17:28:16Z" finished-at="2019-05-08T17:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_ParticipantPage_Title -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.integra.testscript.CreateNewParticipant_TestScript@4dfa3a9d]" name="TearDown" is-config="true" duration-ms="2035" started-at="2019-05-08T17:28:19Z" finished-at="2019-05-08T17:28:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.integra.testscript.CreateNewParticipant_TestScript@4dfa3a9d]" name="setup" is-config="true" duration-ms="21289" started-at="2019-05-08T17:28:21Z" finished-at="2019-05-08T17:28:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_Participant_pageBody()[pri:2, instance:com.integra.testscript.CreateNewParticipant_TestScript@4dfa3a9d]" name="verify_Participant_pageBody" duration-ms="6124" started-at="2019-05-08T17:28:42Z" finished-at="2019-05-08T17:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Participant_pageBody -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.integra.testscript.CreateNewParticipant_TestScript@4dfa3a9d]" name="TearDown" is-config="true" duration-ms="830" started-at="2019-05-08T17:28:48Z" finished-at="2019-05-08T17:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.integra.testscript.CreateNewParticipant_TestScript@4dfa3a9d]" name="setup" is-config="true" duration-ms="23706" started-at="2019-05-08T17:28:49Z" finished-at="2019-05-08T17:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Participant_ErrorMessage()[pri:3, instance:com.integra.testscript.CreateNewParticipant_TestScript@4dfa3a9d]" name="Participant_ErrorMessage" duration-ms="9853" started-at="2019-05-08T17:29:13Z" finished-at="2019-05-08T17:29:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Participant_ErrorMessage -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.integra.testscript.CreateNewParticipant_TestScript@4dfa3a9d]" name="TearDown" is-config="true" duration-ms="806" started-at="2019-05-08T17:29:23Z" finished-at="2019-05-08T17:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="FAIL" signature="Create_Participant_Profile(java.lang.String)[pri:4, instance:com.integra.testscript.CreateNewParticipant_TestScript@4dfa3a9d]" name="Create_Participant_Profile" duration-ms="1076" started-at="2019-05-08T17:29:24Z" data-provider="getIntegraTestData" finished-at="2019-05-08T17:29:25Z">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: Create_Participant_Profile([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String)95632654,(java.lang.String)ACTIVE G2B,(java.lang.String)REGION3,(java.lang.String)2,(java.lang.String)1,(java.lang.String)Automate Participant,(java.lang.String)AP,(java.lang.String)Automate_Participant,(java.lang.String)3,(java.lang.String)Other,(java.lang.String)Integra,(java.lang.String)Yes.Torres Strait Islander,(java.lang.String)Automation script Created by punit shah,(java.lang.String)bosten street,(java.lang.String)SA,(java.lang.String)Barossa Light and Lower Northern,(java.lang.String)bosten,(java.lang.String)3052,(java.lang.String)9856236521,(java.lang.String)6956326545,(java.lang.String)shahpunit63@gmail.com]]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.integra.testscript.CreateNewParticipant_TestScript.validate_ParticipantPage_Title(CreateNewParticipant_TestScript.java:41)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: Create_Participant_Profile([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String)95632654,(java.lang.String)ACTIVE G2B,(java.lang.String)REGION3,(java.lang.String)2,(java.lang.String)1,(java.lang.String)Automate Participant,(java.lang.String)AP,(java.lang.String)Automate_Participant,(java.lang.String)3,(java.lang.String)Other,(java.lang.String)Integra,(java.lang.String)Yes.Torres Strait Islander,(java.lang.String)Automation script Created by punit shah,(java.lang.String)bosten street,(java.lang.String)SA,(java.lang.String)Barossa Light and Lower Northern,(java.lang.String)bosten,(java.lang.String)3052,(java.lang.String)9856236521,(java.lang.String)6956326545,(java.lang.String)shahpunit63@gmail.com]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
@@ -43,14 +78,10 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_ParticipantPage_Title -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.integra.testscript.CreateNewParticipant_TestScript@754ba872]" name="TearDown" is-config="true" duration-ms="1607" started-at="2019-05-03T18:57:47Z" finished-at="2019-05-03T18:57:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
+        </test-method> <!-- Create_Participant_Profile -->
       </class> <!-- com.integra.testscript.CreateNewParticipant_TestScript -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

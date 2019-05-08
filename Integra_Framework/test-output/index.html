@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\pshah\AppData\Local\Temp\testng-eclipse--1247974572\testng-customsuite.xml</span>
+                    <span>C:\Users\pshah\AppData\Local\Temp\testng-eclipse--1534495224\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,10 +102,34 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.integra.testscript.CreateNewParticipant_TestScript" hash-for-method="validate_ParticipantPage_Title">validate_ParticipantPage_Title</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.integra.testscript.CreateNewParticipant_TestScript" hash-for-method="Create_Participant_Profile">Create_Participant_Profile</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.integra.testscript.CreateNewParticipant_TestScript" hash-for-method="Participant_ErrorMessage">Participant_ErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.integra.testscript.CreateNewParticipant_TestScript" hash-for-method="validate_ParticipantPage_Title">validate_ParticipantPage_Title</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.integra.testscript.CreateNewParticipant_TestScript" hash-for-method="verify_Participant_pageBody">verify_Participant_pageBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -125,19 +149,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validate_ParticipantPage_Title">
-                  </a> <!-- validate_ParticipantPage_Title -->
-                  <span class="method-name">validate_ParticipantPage_Title</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at com.integra.testscript.CreateNewParticipant_TestScript.validate_ParticipantPage_Title(CreateNewParticipant_TestScript.java:41)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+                  <a name="Create_Participant_Profile">
+                  </a> <!-- Create_Participant_Profile -->
+                  <span class="method-name">Create_Participant_Profile</span>
+                  <div class="stack-trace">org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: Create_Participant_Profile([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String)95632654,(java.lang.String)ACTIVE G2B,(java.lang.String)REGION3,(java.lang.String)2,(java.lang.String)1,(java.lang.String)Automate Participant,(java.lang.String)AP,(java.lang.String)Automate_Participant,(java.lang.String)3,(java.lang.String)Other,(java.lang.String)Integra,(java.lang.String)Yes.Torres Strait Islander,(java.lang.String)Automation script Created by punit shah,(java.lang.String)bosten street,(java.lang.String)SA,(java.lang.String)Barossa Light and Lower Northern,(java.lang.String)bosten,(java.lang.String)3052,(java.lang.String)9856236521,(java.lang.String)6956326545,(java.lang.String)shahpunit63@gmail.com]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
@@ -161,10 +182,39 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.integra.testscript.CreateNewParticipant_TestScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Participant_ErrorMessage">
+                  </a> <!-- Participant_ErrorMessage -->
+                  <span class="method-name">Participant_ErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_ParticipantPage_Title">
+                  </a> <!-- validate_ParticipantPage_Title -->
+                  <span class="method-name">validate_ParticipantPage_Title</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Participant_pageBody">
+                  </a> <!-- verify_Participant_pageBody -->
+                  <span class="method-name">verify_Participant_pageBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\pshah\AppData\Local\Temp\testng-eclipse--1247974572\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\pshah\AppData\Local\Temp\testng-eclipse--1534495224\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -213,16 +263,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validate_ParticipantPage_Title')
+data.setCell(0, 1, 'Participant_ErrorMessage')
 data.setCell(0, 2, 'com.integra.testscript.CreateNewParticipant_TestScript')
-data.setCell(0, 3, 15);
+data.setCell(0, 3, 9853);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verify_Participant_pageBody')
+data.setCell(1, 2, 'com.integra.testscript.CreateNewParticipant_TestScript')
+data.setCell(1, 3, 6124);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validate_ParticipantPage_Title')
+data.setCell(2, 2, 'com.integra.testscript.CreateNewParticipant_TestScript')
+data.setCell(2, 3, 2946);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Create_Participant_Profile')
+data.setCell(3, 2, 'com.integra.testscript.CreateNewParticipant_TestScript')
+data.setCell(3, 3, 1076);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 ms</span>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -254,14 +316,36 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">validate_ParticipantPage_Title</span>
-                <span class="method-start">24278 ms</span>
+                <span class="method-start">24394 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">24301 ms</span>
+                <span class="method-start">27344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">29384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_Participant_pageBody</span>
+                <span class="method-start">50673 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">56799 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">57630 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Participant_ErrorMessage</span>
+                <span class="method-start">81336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">91191 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
